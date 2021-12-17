@@ -44,7 +44,7 @@ function App() {
 
   {/*<Navbar title="Text Editor" aboutText="About Us"/>*/}
   {/*<Navbar/> */}
-  <Navbar title='TextAnalyser' mode={mode} toggleMode = {toggleMode} />
+  <Navbar title='TextAnalyzer' mode={mode} toggleMode = {toggleMode} />
   <Alert alert = {alert}/>
   <div className="container my-3">
   <TextForm showAlert={showAlert} heading="Enter text to analyze"  mode={mode}/>
